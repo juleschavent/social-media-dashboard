@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__left">
+        <h1 class="header__title">Social Media Dashboard</h1>
+        <h3 class="header__sub">Total Followers: 23,004</h3>
+      </div>
+      <div class="header__right">
+        <h2 class="header__mode">Dark Mode</h2>
+        <div class="header__slider"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="grid__socials">
+        <div class="card card--facebook">
+          <div class="card__socials">
+            <img class="card__icon" src="./images/icon-facebook.svg" alt="" />
+            <h4 class="card__at">@nathanf</h4>
+          </div>
+          <h2 class="card__number">1987</h2>
+          <h3 class="card__folo">FOLLOWERS</h3>
+          <div class="card__days">
+            <img class="card__arrow" src="./images/icon-up.svg" alt="" />
+            <p class="card__day">12 Today</p>
+          </div>
+        </div>
+        <div class="card card--twitter">
+          <div class="card__socials">
+            <img class="card__icon" src="./images/icon-twitter.svg" alt="" />
+            <h4 class="card__at">@nathanf</h4>
+          </div>
+          <h2 class="card__number">1044</h2>
+          <h3 class="card__folo">FOLLOWERS</h3>
+          <div class="card__days">
+            <img class="card__arrow" src="./images/icon-up.svg" alt="" />
+            <p class="card__day">99 Today</p>
+          </div>
+        </div>
+        <div class="card card--instagram">
+          <div class="card__socials">
+            <img class="card__icon" src="./images/icon-instagram.svg" alt="" />
+            <h4 class="card__at">@realnathanf</h4>
+          </div>
+          <h2 class="card__number">11k</h2>
+          <h3 class="card__folo">FOLLOWERS</h3>
+          <div class="card__days">
+            <img class="card__arrow" src="./images/icon-up.svg" alt="" />
+            <p class="card__day">1099 Today</p>
+          </div>
+        </div>
+        <div class="card card--youtube">
+          <div class="card__socials">
+            <img class="card__icon" src="./images/icon-youtube.svg" alt="" />
+            <h4 class="card__at">@Nathan F.</h4>
+          </div>
+          <h2 class="card__number">8239</h2>
+          <h3 class="card__folo">SUBSCRIBERS</h3>
+          <div class="card__days">
+            <img class="card__arrow" src="./images/icon-down.svg" alt="" />
+            <p class="card__day card__day--color">144 Today</p>
+          </div>
+        </div>
+      </section>
+
+      <h1 class="header__style">Overview - Today</h1>
+
+      <section class="grid__stats">
+        <div class="stats__card">
+          <div class="stats__pages">
+            <h3 class="stats__title">Page Views</h3>
+            <h2 class="stats__num">87</h2>
+          </div>
+          <div class="stats__data">
+            <img class="stats__icon" src="./images/icon-facebook.svg" alt="" />
+            <div class="stats__percent">
+              <img class="stats__arrow--up" src="./images/icon-up.svg" alt="">
+              <h4 class="stats__percent__txt">3%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="stats__card">
+          <div class="stats__pages">
+            <h3 class="stats__title">Likes</h3>
+            <h2 class="stats__num">52</h2>
+          </div>
+          <div class="stats__data">
+            <img class="stats__icon" src="./images/icon-facebook.svg" alt="" />
+            <div class="stats__percent">
+              <img class="stats__arrow--up" src="./images/icon-down.svg" alt="">
+              <h4 class="stats__percent__txt --red">2%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="stats__card">
+          <div class="stats__pages">
+            <h3 class="stats__title">Likes</h3>
+            <h2 class="stats__num">5462</h2>
+          </div>
+          <div class="stats__data">
+            <img class="stats__icon" src="./images/icon-instagram.svg" alt="" />
+            <div class="stats__percent">
+              <img class="stats__arrow--up" src="./images/icon-up.svg" alt="">
+              <h4 class="stats__percent__txt">2257%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="stats__card">
+          <div class="stats__pages">
+            <h3 class="stats__title">Profile Views</h3>
+            <h2 class="stats__num">52k</h2>
+          </div>
+          <div class="stats__data">
+            <img class="stats__icon" src="./images/icon-instagram.svg" alt="" />
+            <div class="stats__percent">
+              <img class="stats__arrow--up" src="./images/icon-up.svg" alt="">
+              <h4 class="stats__percent__txt">1375%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="stats__card">
+          <div class="stats__pages">
+            <h3 class="stats__title">Retweets</h3>
+            <h2 class="stats__num">117</h2>
+          </div>
+          <div class="stats__data">
+            <img class="stats__icon" src="./images/icon-twitter.svg" alt="" />
+            <div class="stats__percent">
+              <img class="stats__arrow--up" src="./images/icon-up.svg" alt="">
+              <h4 class="stats__percent__txt">303%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="stats__card">
+          <div class="stats__pages">
+            <h3 class="stats__title">Likes</h3>
+            <h2 class="stats__num">507</h2>
+          </div>
+          <div class="stats__data">
+            <img class="stats__icon" src="./images/icon-twitter.svg" alt="" />
+            <div class="stats__percent">
+              <img class="stats__arrow--up" src="./images/icon-up.svg" alt="">
+              <h4 class="stats__percent__txt">553%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="stats__card">
+          <div class="stats__pages">
+            <h3 class="stats__title">Likes</h3>
+            <h2 class="stats__num">107</h2>
+          </div>
+          <div class="stats__data">
+            <img class="stats__icon" src="./images/icon-youtube.svg" alt="" />
+            <div class="stats__percent">
+              <img class="stats__arrow--up" src="./images/icon-down.svg" alt="">
+              <h4 class="stats__percent__txt --red">19%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="stats__card">
+          <div class="stats__pages">
+            <h3 class="stats__title">Total Views</h3>
+            <h2 class="stats__num">1407</h2>
+          </div>
+          <div class="stats__data">
+            <img class="stats__icon" src="./images/icon-youtube.svg" alt="" />
+            <div class="stats__percent">
+              <img class="stats__arrow--up" src="./images/icon-down.svg" alt="">
+              <h4 class="stats__percent__txt --red">12%</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 
+  
+
+  
+
+  
+
+  @nathanf
+  1987
+  Followers
+  12 Today
+
+  @nathanf
+  1044
+  Followers
+  99 Today
+
+  @realnathanf
+  11k
+  Followers
+  1099 Today
+
+  Nathan F.
+  8239
+  Subscribers
+  144 Today
+
+
+
+  Overview - Today
+
+  Page Views
+  87
+  3%
+
+  Likes
+  52
+  2%
+
+  Likes
+  5462
+  2257%
+
+  Profile Views
+  52k
+  1375%
+
+  Retweets
+  117
+  303%
+
+  Likes
+  507
+  553%
+
+  Likes
+  107
+  19%
+
+  Total Views
+  1407
+  12% -->
+  </body>
+</html>
